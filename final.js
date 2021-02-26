@@ -1,3 +1,6 @@
+// Remember that comments should explain WHY the code does something and NOT
+// WHAT the code does
+
 // These DOM element selectors select the input elements 'Grid Height' and
 // 'Grid Width'.
 const inputWidth = document.getElementById('width');
