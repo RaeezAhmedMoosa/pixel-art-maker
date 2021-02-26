@@ -14,6 +14,7 @@ const inputHeight = document.getElementById('height');
 // table element and the proceeds to create a table through the use of a Nested
 // For Loop.
 function drawGrid (evt) {
+  removeGrid()
   evt.preventDefault();
   const gridRows = inputWidth.value;
   const gridColumns = inputHeight.value;
@@ -42,8 +43,8 @@ drawButton.addEventListener('click', drawGrid);
 // the default colour back to 'black' and sets the values for the integers to 1
 function pageReset (evt) {
   colour.value = '#000000';
-  inputWidth.value = '1';
-  inputHeight.value = '1';
+  inputWidth.value = "1";
+  inputHeight.value = "1";
   location.reload()
 }
 
@@ -91,8 +92,17 @@ gridTable.addEventListener('dblclick', eraser, true);
 function clearGrid (evt) {
   const cellBlocks = document.getElementsByTagName('td');
   for (i = 0; i < cellBlocks.length; i++) {
-    cellBlocks[i].style.backgroundColor = 'white';
+    cellBlocks[i].style.backgroundColor = null;
   }
+}
+
+// This function 'removeGrid()' will wipe away an existing grid when the user
+// clicks on the "Submit" again after already creating a grid. This function
+// selects the existing DOM through its "ID" and then sets the Element's
+// "innerHTML" to basically nothing, achieving the wiped away effect.
+function removeGrid (evt) {
+  const tableGrid = document.getElementById('grid');
+  tableGrid.innerHTML="";
 }
 
 // This is the DOM selection of the 'Clear' button on the webpage. An event is
