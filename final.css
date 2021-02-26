@@ -53,6 +53,10 @@ p {
   color: #1e386f;
 }
 
+.instructions {
+  font-size: 8px;
+}
+
 table {
   border-collapse: collapse;
 }
