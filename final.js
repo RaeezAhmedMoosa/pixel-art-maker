@@ -97,9 +97,9 @@ function clearGrid (evt) {
 }
 
 // This function 'removeGrid()' will wipe away an existing grid when the user
-// clicks on the "Submit" again after already creating a grid. This function
-// selects the existing DOM through its "ID" and then sets the Element's
-// "innerHTML" to basically nothing, achieving the wiped away effect.
+// clicks on the "Submit" button again after already creating a grid. This
+// function selects the existing DOM through its "ID" and then sets the
+// Element's "innerHTML" to basically nothing, achieving the wiped away effect.
 function removeGrid (evt) {
   const tableGrid = document.getElementById('grid');
   tableGrid.innerHTML="";
