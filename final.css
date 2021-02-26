@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'sega';
+  src: url(fonts/SEGA.woff);
+  font-style: normal;
+  font-weight: 100;
+}
+/* font source: 'Sega Logo Font' https://www.cufonfonts.com/font/sega-logo-font (accessed 9 February 2021)*/
+
+
+@font-face {
+  font-family: 'ps2p';
+  src: url(fonts/PressStart2P-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+/* font source: 'Press Start 2P' https://fonts.google.com/specimen/Press+Start+2P?preview.text_type=custom (accessed 9 February 2021)*/
+
+h1 {
+  text-align: center;
+  color: #1e386f;
+  font-family: sega, arial;
+}
+
+.heading {
+  font-weight: bold;
+  text-align: center;
+  background-color: #0070d1;
+  color: white;
+  padding: 10px 20px;
+}
+
+label {
+  font-family: ps2p, arial, monospace;
+  font-size: 12px;
+  padding: 1px;
+}
+
+button {
+  font-family: ps2p, arial;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.input-area, .button-area, .colour-tool {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-family: ps2p, arial;
+  text-align: center;
+  color: #1e386f;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: white;
+}
+
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  font-family: ps2p, arial;
+  font-size: 8px;
+  color: black;
+  padding: 100px 10px 10px 0px;
+}
