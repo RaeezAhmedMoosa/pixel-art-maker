@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href=final.css>
+  <meta charset="UTF-8">
+  <title>Pixel Art Maker</title>
+  <link rel="icon" href="images/icons8-rubik's-cube-48.png" type="image/x-icon">
+  <!-- image source: https://icons8.com/icon/35673/rubik's-cube (accessed 12 February 2021) -->
+
+    <body class="final-main-page">
+
+      <h1 class="main-heading">Pixel Art Maker</h1>
+
+      <div class="input-area">
+
+        <label>Grid Height: </label>
+        <input type="number" name="rows" id="width" placeholder="Integers only"min="1" step="1" required>
+
+        <label>Grid Width: </label>
+        <input type="number" name="columns" id="height" placeholder="Integers only"min="1" step="1" required><br><br>
+
+      </div>
+
+      <div class="button-area">
+
+        <button type="submit"  id="submit" value="Submit">Submit</button>
+        <button type="text" id="clear" value="Clear">Clear</button>
+        <button type="reset" id="reset" value="Reset">Reset</button><br>
+
+      </div>
+
+      <div class="colour-tool">
+
+        <label>Pick a Colour: </label>
+        <input type="color" name="colour-tool" id="colourTool"><br>
+
+      </div>
+
+      <div class="canvas-name">
+
+        <p>Design Canvas</p>
+
+      </div>
+
+      <div class="table-test">
+
+        <table id="grid">
+
+        </table>
+
+      <script src="final.js"></script>
+
+    </body>
+
+    <div class='footer'>
+
+    <footer>
+
+      <p id='footer'>This project was designed & coded by <a href="https://www.linkedin.com/in/raeez-moosa-087724ba/" target="_blank">Raeez Ahmed Moosa</a>, as part of the Udacity 'Introduction to Programming' course.
+      <br><br>&copy 2021 Raeez Ahmed Moosa</p>
+
+    </footer>
+
+    </div>
+
+  </html>
