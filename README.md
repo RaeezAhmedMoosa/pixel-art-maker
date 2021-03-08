@@ -6,3 +6,24 @@ which is dynamically generated according to the user's input.
 This application combines HTML, CSS and JavaScript to create a web application
 which utilises a user's input (in the form of **integers**) to create a HTML
 table which functions as a pixel art canvas.
+
+## Installation
+### Non-GitHub Users
+If you are not familiar with GitHub, don't worry, I have got you covered. Just
+follow these steps and you can access the project:
+
+1.  Click on the green **Code** button, which will open up a small menu;
+2.  Within the menu, select the **Download ZIP** option;
+3.  Download the project file;
+4.  Open the zipped project file;
+5.  Unzip/Extract the project files into a _new_ folder;
+6.  Click on the **final.html** file to open **_Pixel Art Maker_**.
+
+### GitHub Users
+For GitHub users, please clone the project's repository into a local directory
+of your choosing.
+```
+git clone <remote-short-name> <remote-URL>
+```
+Navigate to the relevant local directory and the click on the **final.html**
+file to open **_Pixel Art Maker_**.
