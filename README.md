@@ -27,3 +27,8 @@ git clone <remote-short-name> <remote-URL>
 ```
 Navigate to the relevant local directory and the click on the **final.html**
 file to open **_Pixel Art Maker_**.
+
+## Usage
+All that is required to use **_Pixel Art Maker_** is a web browser. I have only
+tested and used **_Pixel Art Maker_** on FireFox, so I am not sure of any of
+the differences that might exist on other web browsers.
